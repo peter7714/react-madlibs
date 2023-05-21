@@ -1,9 +1,8 @@
+import React from "react";
+import Madlib from "./Madlib";
+
 function App() {
-  return (
-    <div className="App">
-      <h1>Madlibs!</h1>
-    </div>
-  );
+  return <Madlib />
 }
 
 export default App;
